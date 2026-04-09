@@ -1,0 +1,24 @@
+Classification Report
+              precision    recall  f1-score   support
+
+      benign       0.71      0.75      0.73        87
+   malignant       0.65      0.62      0.63        42
+      normal       0.50      0.44      0.47        27
+
+    accuracy                           0.66       156
+   macro avg       0.62      0.60      0.61       156
+weighted avg       0.66      0.66      0.66       156
+
+
+Confusion Matrix
+[[65 11 11]
+ [15 26  1]
+ [12  3 12]]
+
+ROC-AUC
+0.7299996415954043
+
+Saved plots
+  Training curves : training_curves.png
+  ROC curves      : roc_curves.png
+  Confusion matrix: confusion_matrix.png
